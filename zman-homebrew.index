@@ -5,6 +5,16 @@
 		<description>Zman Homebrew is a collection of Dungeons &amp; Dragons items used in campaigns run by Dungeon Master Zman.</description>
 		<author url="http://robertin.com">Zman Homebrew</author>
 		<update version="0.1">
-			<file name="zman-homebrew.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook.index" />
+			<file name="zman-homebrew.index" url="https://github.com/BajaDiver13/zman-homebrew/blob/master/zman-homebrew.index" />
 		</update>
 	</info>
+    <files>
+        <file name="source.xml" url="" />
+
+        <!-- weapons -->
+        <file name="items-weapons.xml" url="" />
+    </files>
+</index>
+
+		
+		
