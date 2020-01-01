@@ -4,7 +4,7 @@
         <name>Weapons</name>
         <description>Collection of Zman Homebrew rings</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
         </update>
     </info>
