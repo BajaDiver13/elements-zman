@@ -24,7 +24,7 @@
             <set name="equippable">true</set>
             <set name="attunement">true</set>
         </setters>
-    <element>
+    </element>
     <element name="Atlas Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ATLAS_RING">
         <description>
             <p class="indent">A stone band with cracks all over it.  Whenver you make a critical strike, you may gain life equal to your constituation modifier.</p>
@@ -38,5 +38,5 @@
             <set name="equippable">true</set>
             <set name="attunement">true</set>
         </setters>
-    <element>
+    </element>
 </elements>
