@@ -1,1 +1,23 @@
-test
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Blink Dagger" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BLINK_DAGGER">
+        <description>
+            <p class="indent">A perfectly balanced dagger with a shining blue gem in the hilt.  After spending an hour with this weapon, a magical ilnk is made between you and the weapon.</p>
+            <p>&nbsp;</p>
+            <p class="indent">Use a bonus action to teleport this dagger to your hand.</p>
+            <p>&nbsp;</p>
+            <p class="indent">Proficiency with a dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>
+        </description>
+        <setters>
+            <set name="keywords">dagger</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">1150</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="weapon">Dagger</set>
+        </setters>
+    </element>
+</elements>
+
+
+            
