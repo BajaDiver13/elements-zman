@@ -1,1 +1,19 @@
-set
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/sources.xml" />
+		</update>
+	</info>
+	<element name="Zman Homebrew" type="Source" source="Core" id="ID_ZMHB_SOURCE_ZMAN_HOMEBREW">
+		<description>
+			<p>Homebrew items posted by Zman</p>
+		</description>
+		<setters>
+			<set name="abbreviation">ZMHB</set>
+			<set name="url">https://github.com/BajaDiver13/elements-zman/tree/master</set>
+			<set name="author" abbreviation="ZBBR">Zman</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
