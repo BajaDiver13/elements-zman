@@ -9,7 +9,8 @@
 		</update>
 	</info>
     <files>
-         <!-- weapons -->
+         <!-- items -->
         <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-weapons.xml" />
+		<file name="items-rings.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
     </files>
 </index>
