@@ -10,12 +10,12 @@
 <p>Additional content:</p>
 <ul>
   <li>Armor</li>
-  <li>Potions<li>
+  <li>Potions</li>
   <li>Rings</li>
   <li>Rods</li>
   <li>Staffs</li>
   <li>Wands</li>
-  <li>Weapons<li>
+  <li>Weapons</li>
   <li>Wondrous Items</li>
 </ul>
 
