@@ -6,9 +6,30 @@
 <p><a href="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index">https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index</a></p>
 
 <h2>Content Updates</h2>
-<h3>Version 0.0.3</h3>
-<p>Initial load of content including</p>
+<h3>Version 0.0.4</h3>
+<p>Additional content:</p>
 <ul>
-  <li>Weapons</li>
+  <li>Armor</li>
+  <li>Potions<li>
+  <li>Rings</li>
+  <li>Rods</li>
+  <li>Staffs</li>
+  <li>Wands</li>
+  <li>Weapons<li>
+  <li>Wondrous Items</li>
+</ul>
+
+<h3>Version 0.0.3</h3>
+<p>Additional content:</p>
+<ul>
   <li>Rings</li>
 </ul>
+
+<h3>Version 0.0.2</h3>
+<p>Initial load of content:</p>
+<ul>
+  <li>Weapons</li>
+</ul>
+
+<h3>Version 0.0.1</h3>
+<p>Initial load of structure.</p>
