@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Staffs</name>
+        <description>Collection of Zman Homebrew Staffs</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-staffs.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-staffs.xml" />
+        </update>
+    </info>
+    <element name="Quarterstaff of Spellcasting" type="Magic Item" source="Zman Homebrew" id="QUARTERSTAFF_OF_SPELLCASTING">
+        <description>
+            <p>Gain a +1 to melee attack rolls and damage rolls with weapon. This weapon can be used as a spellcasting focus. You no longer gain disadvantage on ranged spells while engaged in melee when using weapon as a spellcasting focus.</p>
+        </description>
+        <setters>
+            <set name="category">Staffs</set>
+            <set name="type">Staff</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">170</set>
+            <set name="slot">onehand</set>
+            <set name="weapon">Quarterstaff</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+    <element name="Lesser Staff of Healing" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_LESSER_STAFF_OF_HEALING">
+        <description>
+            <p>This staff has 5 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: cure wounds (1 charge per spell level, up to 3rd) or lesser restoration (2 charges).</p>
+            <p></p>
+            <p>The staff regains 1d4 +1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.</p>
+        </description>
+        <setters>
+            <set name="category">Staffs</set>
+            <set name="type">Staff</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">440</set>
+            <set name="slot">onehand</set>
+	        <set name="weapon">Quarterstaff</set>
+            <set name="charges">5</set>
+            <set name="attunement" addition="by a bard, cleric, or druid"></set>
+        </setters>
+    </element>
+</elements>

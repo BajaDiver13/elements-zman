@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wondrous Items</name>
+        <description>Collection of Zman Homebrew Wondrous Items</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-wondrous.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-wondrous.xml" />
+        </update>
+    </info>
+    <element name="Flask of Perpetual Booze" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_FLASK_OF_PERPETUAL_BOOZE">
+        <description>
+            <p>This detailed, platinum flask is enchanted to contain a magical source of fairly strong alcohol. When opened and poured, this flask produces up to 1 gallon of dark, brackish whiskey. Once emptied, the flask refills in 1 hour.</p>
+            <p></p>
+            <p class="indent">Any whiskey poured from this flask that isn’t consumed within 8 hours turns into brine.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">220</set>
+        </setters>
+    </element>
+    <element name="Hoof of the Light Thief" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_HOOF_OF_THE_LIGHT_THIEF">
+        <description>
+            <p>While attuned, you have advantage on DEX saving throws and gain +1 to Stealth. You can release a small amount of magic from the gem stone at will, casting light 10ft in front of you to light dark paths. <b>Piercing Light</b> (2 charges) A light brighter than the sun flashes from the gem stone. Enemies within a 15ft radius mut make a CON saving throw with a DC 16. If they fail, they are now blinded for 1 minute. All expended charges replenish at dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">4600</set>
+            <set name="slot">head</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="stealth:misc" value="1"/>
+        </rules>
+    </element>
+    <element name="Everfull Quiver" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_EVERFULL_QUIVER">
+        <description>
+            <p>This quiver is engraved with magical runes and only appears to hold a few arrows. When you pull an arrow from the quiver, it automatically conjures one to replace it in the quiver. The arrows disappear 1 minute after they are taken out of the quiver.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">375</set>
+        </setters>
+    </element>
+    <element name="Earring of Whisper" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_EARRING_OF_WHISPER">
+        <description>
+            <p>This gemmed earring appears as a simple silver half-loop.</p>
+            <p></p>
+            <p class="indent">These earrings allow the wearer to send and receive Message spells to and from the other connected earrings within five hundred feet. To send a message, the wearer must activate the earring by touching it, although it will still receive messages.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">15000</set>
+        </setters>
+    </element>
+    <element name="Charlatan's Wardrobe" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_CHARLATAN_WARDROBE">
+        <description>
+            <p>This set of plain clothes are exeptionally comfortable and easy to wear. They are always clean and smell freshly washed and lightly perfumed. You can change the appearance of the outfit by twirling in place and speaking the clothes' command words as an action. Their appearance is illusory. Physical interaction with the clothes reveals their appearance to be an illusion, because things can pass through it. A creature that uses its action to examine the clothes can determine that it is an illusion with a successful DC 13 Intelligence (Investigation) check. Regardless of their appearance, the clothes offer no additional protection from the elements, and can only appear to be clothes.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">200</set>
+        </setters>
+    </element>
+    <element name="Bag of Withholding" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BAG_OF_WITHHOLDING">
+        <description>
+            <p>This bag looks and functions exactly like a normal Bag of Holding, with double the interior capacity of up to 1000 pounds and 128 cubic feet.  This capacity comes at a cost, as a Bag of Withholding feels unappreciated, because players only want to talk to it when they want something.  The bag must be reassured of its value and importance in order to open up to release any item contained inside.</p>
+            <p></p>
+            <p class="indent">When attempting to retrieve any item in the Bag of Withholding, the player must succeed on a DC 14 persuasion check, or the bag will shut more tightly.  Each failure increases the DC of the next check by 1.  Successfully convincing the Bag of its importance will allow access for 1 minute, resetting the DC to 14 thereafter.  Regardless of the DC at the end of the day, the DC resets to 14 the following dawn, as the Bag of Withholding has had a chance to reconsider its feelings over the course of the night.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">475</set>
+        </setters>
+    </element>
+    <element name="Skeleton Key" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SKELETON_KEY">
+        <description>
+            <p>The serrated edge of this old brass key has been filed down so that it can fit many locks.  Surprisingly it fits locks on almost any door, gate, and chest.  When inserted into a lock then turned the Skeleton Key casts a Knock spell to open it.</p>
+            <p></p>
+            <p class="indent">Once used the Skeleton Key can not open another lock until after a short  rest.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">425</set>
+        </setters>
+    </element>
+</elements>

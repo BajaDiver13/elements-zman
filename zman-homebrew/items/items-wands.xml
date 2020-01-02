@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wands</name>
+        <description>Collection of Zman Homebrew Wands</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-wands.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-wands.xml" />
+        </update>
+    </info>
+    <element name="Gnome Army Wand" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_GNOME_ARMY_WAND">
+        <description>
+            <p>An Iron wand with five glyphs in Gnome script. Never Leave Home Without It. This wand has 7 charges, and regains 1d6+1 expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand:</p>
+            <ul>
+                <li>Create Bonfire (1 charge)</li>
+                <li>Dancing Lights (1 charge)</li>
+                <li>Mending (1 charge)</li>
+                <li>Prestidigitation (1 charge)
+                <li>Alarm (2 charges)</li>
+        </description>
+        <setters>
+            <set name="category">Wands</set>
+            <set name="type">Wand</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">1300</set>
+            <set name="slot">onehand</set>
+            <set name="charges">7</set>
+        </setters>
+    </element>
+    <element name="Wand of Counterspell" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_WAND_OF_COUNTERSPELL">
+        <description>
+            <p>This wand has 4 charges. While holding it, you can use a reaction to expend 1 or more of its charges to cast the Counterspell spell from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
+            <p></p>
+            <p class="indent">The wand regains 1d4 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+        </description>
+        <setters>
+            <set name="category">Wands</set>
+            <set name="type">Wand</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">1200</set>
+            <set name="slot">onehand</set>
+            <set name="charges">4</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+</elements>

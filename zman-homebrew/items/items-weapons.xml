@@ -2,9 +2,9 @@
 <elements>
     <info>
         <name>Weapons</name>
-        <description>Collection of Zman Homebrew weapons</description>
+        <description>Collection of Zman Homebrew Weapons</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.1">
+        <update version="0.0.4">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-weapons.xml" />
         </update>
     </info>
@@ -25,7 +25,146 @@
             <set name="weapon">Dagger</set>
         </setters>
     </element>
-</elements>
-
-
-            
+    <element name="Prosecutor" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_PROSECUTOR">
+        <description>
+            <p>It is the main weapon of The Shadow, which during the time when George and the demon were disconnected, but united, was stuck in the mind of George. Now, that they have united as one, after the death of Enzo and everything that has happened to him, he can act with it as he pleases, taking it from the nonexistent plane, to occupy it in the existing one.</p>
+            <p></p>
+            <p class="indent">Double attack: D12 + STR</p>
+            <p></p>
+            <p class="indent">Proficiency with a greatsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="greatsword">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">5000</set>
+            <set name="slot">twohand</set>
+            <set name="weapon">Greatsword</set>
+            <set name="attunement">true</set>
+            <set name="damage" type="slashing">1d12 + STR</set>
+        </setters>
+    </element>
+    <element name="The Blood Axe" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BLOOD_AXE">
+        <description>
+            <p>Add an additional +2 to all attack and damage rolls. If living, the target takes an additional 1d6 necrotic damage. Undead, Contructs, Objects, etc are immune to this effect. Upon slaying a living target, the user regains 10hp.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="greataxe">Weapon</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">43500</set>
+            <set name="slot">twohand</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">2</set>
+            <set name="damage" type="necrotic">1d6</set>
+        </setters>
+    </element>
+    <element name="Splinter Arrows" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SPLINTER_ARROWS">
+        <description>
+            <p>Within a 60ft cone, choose four creatures and make range attacks against them. On a hit, each target suffers piercing damage equal to: 1d6 + your profciency bonus + your Dexterity modifier.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type"  addition="arrow">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">120</set>
+        </setters>
+    </element>
+    <element name="Toothbiter" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_TOOTHBITER">
+        <description>
+            <p>You gain +1 to attack and damage rolls. You have advantage to disarm your opponent. <b>Curse:</b> Tempermental - If you roll a 1 or 2 on an attack roll, the flat of the sword smacks the wielder in the face, dealing 1d4 bludgeoning damage and breaking a tooth.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="shortsword">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">285</set>
+            <set name="attunement">true</set>
+            <set name="enhancement">1</set>
+            <set name="damage" type="bludgeoning">1d4</set>
+        </setters>
+    </element>
+    <element name="Shadowglass Daggers" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADOWGLASS_DAGGERS">
+        <description>
+            <p>These daggers are made of a pitch black material that feels much like chipped glass. The daggers deal 1d4 slashing damage plus an additional 1d4 necrotic damage. These daggers pass through cloth and skin leaving no visible wound. "All damage is internal."</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">500</set>
+        </setters>
+    </element>
+    <element name="Dactyle Crossbow" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_DACTYLE_CROSSBOW">
+        <description>
+            <p>1d10 piercing damage. +1 to attack and damage rolls. While aiming you gain:</p>
+            <ul>
+                <li><b>Predator's Sight</b> - Darkvision equal to heavy crossbow normal range.</li>
+                <li><b>Prehistoric Sight</b> - The Ability to see in magical darkness equal to your normal darkvision.</li>
+                <li><b>Vicious Arrow</b> - Ignore 1/2 and 3/4 cover</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="crossbow">Weapon</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">27000</set>
+            <set name="enhancement">1</set>
+            <set name="damage" type="piercing">1d10</set>
+        </setters>
+    </element>
+    <element name="Needle" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_NEEDLE">
+        <description>
+            <p>When you reduce a creature to 0 hitpoints with needle, you gain up to half of its maxhitpoints as charges up to a maximum of 30. As an action, you can twist off the blade and inject the Needle's fluid into a willing creature, healing 1 hitpoint for each charge you have.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="dagger">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">165</set>
+        </setters>
+    </element>
+    <element name="Blades of the Scorpion" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BLADES_OF_THE_SCORPION">
+        <description>
+            <p>You gain +1 to attack and damage rolls when you are wielding both magical blades as a pair, additionally it only requires one attunement slot to attune to both of these blades.</p>
+            <ul>
+                <li><b>Poisoned Blades:</b> A creature struck by these blades must succeed on a DC 15 Constitution saving throw or become poisoned for 1 minute.</li>
+                <li><b>Scorpion's Sting:</b> When a creature misses an attack of opportunity on you, you may use your reaction to make one melee attack using the blades of the scorpion.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="scemitar">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">3000</set>
+            <set name="enhancment">1</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Quickling's Ivy" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_QUICKLING_IVY">
+        <description>
+            <p>You gain +1 to attack and damage rolls. You damage is 1d8 piercing damage + 1d4 poison damage. (2/short rest) <b>Ensnaring Ivy:</b> When landing a successful hit, you may choose to cause the blade to instantly sprout a tangle of ivy vines. The target must succeed a Strength save DC 16 or become Restrained for 3 rounds. They may attempt another save at the start of their turn. On scoring a critical hit, the <b>Ensnaring Ivy</b> effect is triggered for free.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="type" addition="rapier">Weapon</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">3980</set>
+            <set name="enhancement">1</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Void Arrow" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_VOID_ARROW">
+        <description>
+            <p>This pitch dark piece of ammunition is composed of densely packed shadows. A creature hit by this magic ammuntion takes psychic damage instead of piercing damage. This ammunition make no sound when it's fired or strikes a surface. It leaves no discernible wounds and vanishes immediately after hitting a creature.</p>
+        </description>
+        <setters>
+            <set name="category">Ammunition</set>
+            <set name="type" addition="arrow">Weapon</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">180</set>
+        </setters>
+    </element>
+</elements>            

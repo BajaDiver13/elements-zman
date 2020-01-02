@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Rods</name>
+        <description>Collection of Zman Homebrew Rods</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-rods.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rods.xml" />
+        </update>
+    </info>
+    <element name="Claw of Nerull" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_CLAW_OF_NERULL">
+        <description>
+            <p>This disembodied skeletal forearm is tipped with a pointing finger and is covered with dried blood. Once per day when the command word is spoken and the rod is pointed at a living creature of Large size or smaller up to 30 ft. away, a massive skeletal hand emerges from the ground and grasp at the creature, holding them in place for up to 1 minute. The creature must make a DEX saving throw on cast to dodge or a STR saving throw after being trapped to break out. The DC is the higher of your spell DC or 16.</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">4000</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+</setters>
+    </element>
+    <element name="Etheric Revitalizer Rods of Resuscitation" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_E_R_R_O_R">
+        <description>
+            <p>The Etheric Revitalizer Rods Of Resuscitation or E.R.R.O.R is a pair of silver rods coated with a special diamond dust admixture that when used together can bring back the recently deceased and dying. As an action, you may touch a creature with one of the rods and cast the Spare the Dying cantrip. If you instead touch a creature with both of the rods, you may case the Revivify spell without needing a material component. Doing so consumes the diamond dust coating the rods and this feature cannot be used again until they are re-coated, which costs 250 gp.</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+    </element>
+    <element name="Life Drain" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_LIFE_DRAIN">
+        <description>
+            <p>This rod has a bleached skull on the very top, and the body of the rod is made from a red silk that is very fine to the touch.</p>
+            <p></p>
+            <p class="indent">To use the Life Drain, point it at target creature. The creature must make a DC 15 Constitution saving throw. On a fail, the creature takes 2d12 Necrotic damage. You regain hit points equal to the damage dealt to the target. If the health you gained exceeds your hit point maximum, you gain temporary hit points equal to the remainder of regained hit points. Temporary hit points gained by the Life Drain can stack.</p>
+            <p></p>
+            <p class="indent">As you drain the life from a creature, it visibly becomes diseased and begins to wither away. If the creature is killed by the damage, it leaves no corpse and can't be turned into a zombie.</p>
+            <p></p>
+            <p class="indent">If the Life Drain is used on an undead creature, you instead take the damage. The Life Drain has no effect on constructs.</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">4300</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Rod of Mercurial Rod" type="Magic Item" source="Zman Homebrew" id="">
+        <description>
+            <p>The wielder of this rod can cause it to change shape. As a bonus action, the rod can be turned into any weapon, suit of armor, or other item that fits in a 5ft. cube.</p>
+            <p></p>
+            <p class="indent">If changed into a weapon, the wielder is considered proficient with it and gets a +2 bonus to attack and damage rolls made with it.</p>
+            <p></p>
+            <p class="indent">If changed into a suit of armor, the armor forms around the wielder requiring no time to don, and they receive a +1 bonus to their AC. However, they must have proficiency with the type of armor that is formed, and the rod can't take the shape of armor of the wielder is already wearing armor.</p>
+            <p></p>
+            <p class="indent">If changed into a miscellaneous object, the item must be able to be contained in a 5ft. cube, but once it is created, its dimensions are no longer restrained to a 5ft. cube, such as a coil of rope of an extendable ladder.</p>
+            <p></p>
+            <p class="indent">The rod reverts to its original form if the wielder drops to 0 HP or if the wielder ends the transformation (no action required).</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">35000</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Blessed Rod" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BLESSED_ROD">
+        <description>
+            <p>This Rod has 1 Charge. As an Action, you may expend one charge to Cast the Bless spell, targeting only yourself.</p>
+            <p></p>
+            <p class="indent">The rod maintains concentration on the spell, so you don't have to.</p>
+            <p></p>
+            <p class="indent">The rod regains 1 expended Charge at Dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Common</set>
+            <set name="cost" currency="gp">75</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Chaos Rod" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_CHAOS_ROD">
+        <description>
+            <p>This rod is a small metal cylindrical rod about 6 inches in length, and closely resembles a ladder rung. It has a small metal button in the middle on the rod, noticeably sticking out from the rod. This rod does not require attunement, and can be used by anyone. Pressing the button causes a wild surge to happen as if from a wild mage. Use the wild magic table of the DM's choice, and roll on it as you would a normal wild surge. </p>
+            <p></p>
+            <p class="indent">This rod has 6 charges. It regains 1d4+2 charges at dawn each day.</p>
+        </description>
+        <setters>
+            <set name="category">Rods</set>
+            <set name="type">Rod</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">17000</set>
+            <set name="slot">onehand</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+    </element>
+</elements>

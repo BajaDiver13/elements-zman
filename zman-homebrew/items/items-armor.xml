@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Armor</name>
+        <description>Collection of Zman Homebrew Armor</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-armor.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-armor.xml" />
+        </update>
+    </info>
+    <element name="Dragonslayer's Shield" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_DRAGONSLAYER_SHIELD">
+        <description>
+            <p>This brightly colored, enchanted shield is crafted from the armor plates of a chromatic dragon. Whilst attuned to Dragonslayer's Shield, you gain a +2 bonus to AC in addition to the normal bonus from wearing a shield. Additionally you gain resistance to the damage type of the dragon's breath weapon type.</p>
+            <p></p>
+            <p class="indent"><b>Frightful Presence:</b> Once per day, as an action you may lift your shield, and each creature of your choice that is also aware of you within 120 feet must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute, A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This ability recharges at dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">31800</set>
+            <set name="enhancement">2</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+    </element>
+    <element name="Trollhide Armor" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_TROLLHIDE_ARMOR">
+        <description>
+            <p>While wearing this armour, you can use an action to bestow regeneration on yourself for 1 minute of until you take off the armour. During this time, you regain 3 hitpoints at the start of your turn, however if you take fire or acid damage, the regeneration doesn't function at the start of your next turn. Once this action has been used, it can't be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="keywords">armor</set>
+            <set name="category">Magic Armor</set>
+            <set name="slot">body</set>
+            <set name="type" addition="medium">Armor</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">900</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>
+        </setters>
+    </element>
+    <element name="Dark Fathom Armor" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_DARK_FATHOM_ARMOR">
+        <description>
+            <p>This dark, sea-soaked suit of armor smells of brine and is covered in eldritch runes. You have a bonus +1 bonus to AC and can breathe normally underwater while wearing this armor. You can use this armor to cast the "black tentacles" spell (save DC 15) while you're wearing it. This spell's area of effect becomes a 15-foot square centered on your location when you cast it in this way, and you are immune to its effects. The spell does not follow you when you move. When casting this spell in this way, it does not require concentration. Once this property of the armor has been used, it can't used again until the following dusk.</p>
+        </description>
+        <setters>
+            <set name="keywords">armor</set>
+            <set name="category">Magic Armor</set>
+            <set name="slot">body</set>
+            <set name="type" addition="light">Armor</set>
+            <set name="rarity">Very Rare</set>
+            <set name="cost" currency="gp">7500</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+</elements>

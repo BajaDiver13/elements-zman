@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Potions</name>
+        <description>Collection of Zman Homebrew Potions</description>
+        <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
+        <update version="0.0.4">
+            <file name="items-potions.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-potions.xml" />
+        </update>
+    </info>
+    <element name="Potion of Spell Recovery" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_POTION_OF_SPELL_RECOVERY">
+        <description>
+            <p>You regain 1d4 +3 expended spell slot levels. You can recover a total number of combined spell slot levels equal to or less than the number you roll when you drink this potion. None of the slots can be 6th level or higher.</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">900</set>
+        </setters>
+    </element>
+    <element name="Essence of Rage" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ESSENCE_OF_RAGE">
+        <description>
+            <p>This bubbling red liquid is always warm and tastes of iron and bitter raisins. You can drink this potion as a bonus action. When you do, you enter a rage that lasts for 1 minute or until you're knocked unconscious. This rage grants you the same effects as a 1st-level barbarian's class feature with the following exception: if you end your turn and you haven't attacked a hostile creature since your last turn or taken damage since then, you take 1d4 psychic damage and your rage does not end. You can enter this rage even if you're wearing heavy armor.</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">650</set>
+        </setters>
+    </element>
+    <element name="Acid Bomb" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ACID_BOMB">
+        <description>
+            <p>As an action, a character can throw this lurid green potion - in actuality a small bomb - at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take 1d6 acid damage.</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Common</set>
+            <set name="cost" currency="gp">75</set>
+        </setters>
+    </element>
+    <element name="Arcane Bomb" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ARCANE_BOMB">
+        <description>
+            <p>Similar to the alchemist's fire, the arcane bomb is a thrown projectile that, upon impact, ignites an explosion of magical force. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature of object, treating the arcane bomb as an improvised weapon. On a hit, the target takes 1d12 force damage and, unless they succeed a DC 15 Strength saving throw, is knocked back from the direction it was hit from by 5 feet and prone. Also, if any creature other than the target is within 5 feet radius of the explosive impact, they are also knocked prone unless they succeed on a DC 13 Strength saving throw.</p>
+        </description>
+        <setters>
+            <set name="category">Potions</set>
+            <set name="type">Potion</set>
+            <set name="rarity">Common</set>
+            <set name="cost" currency="gp">125</set>
+        </setters>
+    </element>
+</elements>

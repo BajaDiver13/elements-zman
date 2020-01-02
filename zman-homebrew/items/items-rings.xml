@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Weapons</name>
-        <description>Collection of Zman Homebrew rings</description>
+        <name>Rings</name>
+        <description>Collection of Zman Homebrew Rings</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.3">
-            <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
+        <update version="0.0.4">
+            <file name="items-rings.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
         </update>
     </info>
     <element name="Coin Storing Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_COIN_STORING_RING">
         <description>
-            <p class="indent">A gold signet ring with a lion engraving with minute ruby eyes on the large band.</p>
+            <p>A gold signet ring with a lion engraving with minute ruby eyes on the large band.</p>
             <p></p>
-            <p class="indent">When you touch gold coins with your ringed hand, it vanishes and becomes stored in the ring.   You can speak a command word with a specific amount and an equal number of coins appear on your hand.</p>
+            <p class="indent">When you touch gold coins with your ringed hand, it vanishes and becomes stored in the ring.  You can speak a command word with a specific amount and an equal number of coins appear on your hand.</p>
             <p></p>
             <p class="indent">The ring can store a maximum of 1,000 gold coins.</p>
         </description>
@@ -27,7 +27,7 @@
     </element>
     <element name="Atlas Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ATLAS_RING">
         <description>
-            <p class="indent">A stone band with cracks all over it.  Whenver you make a critical strike, you may gain life equal to your constituation modifier.</p>
+            <p>A stone band with cracks all over it.  Whenver you make a critical strike, you may gain life equal to your constituation modifier.</p>
         </description>
         <setters>
             <set name="category">Rings</set>
@@ -37,6 +37,138 @@
             <set name="slot">ring</set>
             <set name="equippable">true</set>
             <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Band of the Dryad" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BAND_OF_THE_DRYAD">
+        <description>
+            <p>A simple wooden band that appears to be entwined by evergreen ivy vines. The top is decorated with a small rose petal, which remains bloomed and perfect until the ring's effect is used. Each day at dawn the petal blooms again.</p>
+            <p></p>
+            <p class="indent">The band has a single daily charge, which recharges each day at dawn. The power contained within the rose petal may be expended to heal a target the wearer can touch by 2d4+2 hit points. Once used, the rose petal wilts and falls off the ring, and this effect may not be used again until the next dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">160</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+    </element>
+    <element name="Force Shield Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_FORCE_SHIELD_RING">
+        <description>
+            <p>Once attuned, this ring can be activated or deactivated as a free action on the wielder's turn. When activated, it projects a field of force that may be wielded as a shield, granting the user a +2 bonus to Armor Class. The force shield is weightless and never creates an encumbrance penalty. The user's hand remains free for purposes of spellcasting, interacting with objects, etc.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">700</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+			<stat name="ac:misc" value="1" />
+        </rules>
+    </element>
+    <element name="Potion Infusion Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_POTION_INFUSED_RING">
+        <description>
+            <p>This fine silver ring has a large clear gemstone set within it. When a potion is poured over the ring, the gemstone magically absorbs all of the contents of the potion and its color changes to a color similar to that of the potion that was used.</p>
+            <p></p>
+            <p class="indent">Once infused with a potion the ring can later be activated, using a Bonus Action, to gain the benefits of the stored potion. Once activated the potion fades from the gem and it becomes clear once more.</p>
+            <p></p>
+            <p class="indent">Until a new potion is poured over the gemstone, it has no special properties, though it does still radiate magic if an appropriate detection spell or ability is used upon it.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">235</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+    </element>
+    <element name="Ring of the Grammarian" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_RING_OF_THE_GRAMMARIAN">
+        <description>
+            <p>The wearer of this ring can, once a day, alter one letter of a spell's title to alter the spell for a different effect.</p>
+            <p></p>
+            <p class="indent">Example: Cause Fear becomes Cause Bear.</p>
+            <p></p>
+            <p class="indent">The effect of these altered spells are deteremined by the DM, but with the caster's intentions taken into account.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Rare</set>
+            <set name="cost" currency="gp">600</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+    </element>
+    <element name="Band of Blink Back" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_RING_OF_BLINK_BACK">
+        <description>
+            <p>After a thrown item leaves the wielders hand it will return automatically after a hit or a miss. The thrown item returns instantly unless the ring and the item are in different planes of existence.</p>
+            <p></p>
+            <p><em>Requires a short rest for attunement.</em></p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">350</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Shadecast Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADECAST_RING">
+        <description>
+            <p>This ring holds a maximum of 4 charges that replenish 1d4 charges eveyr midnight. <b>Shadow Step:</b> As a bonus action, you may expend 2 charges to briefly surround yourself in shadows and teleport up to 40 feet to an unoccupied space that you can see. For each additional charge expended in the same bonus action, you may add an extra 10 feet. Should the ring be completely drained of charges, You must make a Constitution saving throw DC 15. If you fail, you take 1d6 necrotic damage. If you succeed, you deal an additional 1d6 necrotic damage on your next successful hit.</p>
+            <p></p>
+            <p><em>Requires attunement with no visable moon in sky.</em></p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp"></set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+            <set name="charges">4</set>
+        </setters>
+    </element>
+    <element name="Abyss Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ABYSS_RING">
+        <description>
+            <p>The wearer turns invisible for as long as they can hold their breath. Steath +4 while worn. </p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">rare</set>
+            <set name="cost" currency="gp">2395</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">false</set>
+        </setters>
+        <rules>
+            <stat name="stealth:misc" value="4"/>
+        </rules>
+    </element>
+    <element name="Archer's Ring of Elemental Power" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ARCHER_RING_OF_ELEMENTAL_POWER">
+        <description>
+            <p>This gold ring has small arrows engraved all around the inside. Four gemstones are set in the top of the ring: a ruby, a diamond, a sapphire, and an emerald. They all have a bright shimmer. The ring has four charges. You can use a charge to add 4d8 fire, cold, lightning, or poison damage to the damage roll of one ranged arrow attack. There is one charge for each damage type. You must declare that you are using a charge before making the attack roll and the charge is expended whether the attack hits or misses. When a charge is expended, the corresponding gem loses it's bright shimmer (ruby for fire, diamond for cold, sapphire for lightning, and emerald for poison). The ring's charges reset at dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Rings</set>
+            <set name="type">Ring</set>
+            <set name="rarity">Very Rare</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement" addition="by a fighter or ranger with the archery fighting style"></set>
         </setters>
     </element>
 </elements>
