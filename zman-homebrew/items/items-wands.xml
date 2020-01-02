@@ -17,6 +17,7 @@
                 <li>Mending (1 charge)</li>
                 <li>Prestidigitation (1 charge)</li>
                 <li>Alarm (2 charges)</li>
+            </ul>
         </description>
         <setters>
             <set name="category">Wands</set>
