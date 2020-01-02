@@ -4,13 +4,19 @@
 		<name>Zman Homebrew</name>
 		<description>Zman Homebrew is a collection of Dungeons &amp; Dragons items used in campaigns run by Dungeon Master Zman.</description>
 		<author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="zman-homebrew.index" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index" />
 		</update>
 	</info>
     <files>
          <!-- items -->
-        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-weapons.xml" />
+		<file name="items-armor.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-armor.xml" />
+		<file name="items-potions.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-potions.xml" />
 		<file name="items-rings.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
+		<file name="items-rods.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rods.xml" />
+		<file name="items-staffs.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-staffs.xml" />
+		<file name="items-wands.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-wands.xml" />
+        <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-weapons.xml" />
+		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-wondrous.xml" />
     </files>
 </index>
