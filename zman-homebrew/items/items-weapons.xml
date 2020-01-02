@@ -57,6 +57,7 @@
             <set name="attunement">true</set>
             <set name="enhancement">2</set>
             <set name="damage" type="necrotic">1d6</set>
+            <set name="weapon">Greataxe</set>
         </setters>
     </element>
     <element name="Splinter Arrows" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SPLINTER_ARROWS">
@@ -82,6 +83,7 @@
             <set name="attunement">true</set>
             <set name="enhancement">1</set>
             <set name="damage" type="bludgeoning">1d4</set>
+            <set name="weapon">Shortsword</set>
         </setters>
     </element>
     <element name="Shadowglass Daggers" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADOWGLASS_DAGGERS">
@@ -93,6 +95,7 @@
             <set name="type" addition="dagger">Weapon</set>
             <set name="rarity">Uncommon</set>
             <set name="cost" currency="gp">500</set>
+            <set name="weapon">Dagger</set>
         </setters>
     </element>
     <element name="Dactyle Crossbow" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_DACTYLE_CROSSBOW">
@@ -111,6 +114,7 @@
             <set name="cost" currency="gp">27000</set>
             <set name="enhancement">1</set>
             <set name="damage" type="piercing">1d10</set>
+            <set name="weapon">Crossbow</set>
         </setters>
     </element>
     <element name="Needle" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_NEEDLE">
@@ -122,6 +126,7 @@
             <set name="type" addition="dagger">Weapon</set>
             <set name="rarity">Uncommon</set>
             <set name="cost" currency="gp">165</set>
+            <set name="weapon">Dagger</set>
         </setters>
     </element>
     <element name="Blades of the Scorpion" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_BLADES_OF_THE_SCORPION">
@@ -140,6 +145,7 @@
             <set name="enhancment">1</set>
             <set name="equippable">true</set>
             <set name="attunement">true</set>
+            <set name="weapon">Dagger</set>
         </setters>
     </element>
     <element name="Quickling's Ivy" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_QUICKLING_IVY">
@@ -154,6 +160,7 @@
             <set name="enhancement">1</set>
             <set name="equippable">true</set>
             <set name="attunement">true</set>
+            <set name="weapon">Rapier</set>
         </setters>
     </element>
     <element name="Void Arrow" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_VOID_ARROW">
