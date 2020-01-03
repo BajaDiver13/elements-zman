@@ -4,7 +4,7 @@
         <name>Weapons</name>
         <description>Collection of Zman Homebrew Weapons</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-weapons.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-weapons.xml" />
         </update>
     </info>
@@ -56,7 +56,6 @@
             <set name="slot">twohand</set>
             <set name="attunement">true</set>
             <set name="enhancement">2</set>
-            <set name="damage" type="necrotic">1d6</set>
             <set name="weapon">Greataxe</set>
         </setters>
     </element>
@@ -73,7 +72,9 @@
     </element>
     <element name="Toothbiter" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_TOOTHBITER">
         <description>
-            <p>You gain +1 to attack and damage rolls. You have advantage to disarm your opponent. <b>Curse:</b> Tempermental - If you roll a 1 or 2 on an attack roll, the flat of the sword smacks the wielder in the face, dealing 1d4 bludgeoning damage and breaking a tooth.</p>
+            <p>You gain +1 to attack and damage rolls. You have advantage to disarm your opponent.</p>
+            <p></p>
+            <p class="indent"><b>Curse:</b> Tempermental - If you roll a 1 or 2 on an attack roll, the flat of the sword smacks the wielder in the face, dealing 1d4 bludgeoning damage and breaking a tooth.</p>
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
@@ -88,7 +89,9 @@
     </element>
     <element name="Shadowglass Daggers" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADOWGLASS_DAGGERS">
         <description>
-            <p>These daggers are made of a pitch black material that feels much like chipped glass. The daggers deal 1d4 slashing damage plus an additional 1d4 necrotic damage. These daggers pass through cloth and skin leaving no visible wound. "All damage is internal."</p>
+            <p>These daggers are made of a pitch black material that feels much like chipped glass. The daggers deal 1d4 slashing damage plus an additional 1d4 necrotic damage. These daggers pass through cloth and skin leaving no visible wound.</p>
+            <p></p>
+            <p class="indent"><em>All damage is internal.</em></p>
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
@@ -109,7 +112,7 @@
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
-            <set name="type" addition="crossbow">Weapon</set>
+            <set name="type" addition="crossbow, heavy">Weapon</set>
             <set name="rarity">Very Rare</set>
             <set name="cost" currency="gp">27000</set>
             <set name="enhancement">1</set>
@@ -139,18 +142,20 @@
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
-            <set name="type" addition="scemitar">Weapon</set>
+            <set name="type" addition="scimitar">Weapon</set>
             <set name="rarity">Rare</set>
             <set name="cost" currency="gp">3000</set>
             <set name="enhancment">1</set>
             <set name="equippable">true</set>
             <set name="attunement">true</set>
-            <set name="weapon">Dagger</set>
+            <set name="weapon">Scimitar</set>
         </setters>
     </element>
     <element name="Quickling's Ivy" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_QUICKLING_IVY">
         <description>
-            <p>You gain +1 to attack and damage rolls. You damage is 1d8 piercing damage + 1d4 poison damage. (2/short rest) <b>Ensnaring Ivy:</b> When landing a successful hit, you may choose to cause the blade to instantly sprout a tangle of ivy vines. The target must succeed a Strength save DC 16 or become Restrained for 3 rounds. They may attempt another save at the start of their turn. On scoring a critical hit, the <b>Ensnaring Ivy</b> effect is triggered for free.</p>
+            <p>You gain +1 to attack and damage rolls. You damage is 1d8 piercing damage + 1d4 poison damage. (2/short rest)</p>
+            <p></p>
+            <p class="indent"><b>Ensnaring Ivy:</b> When landing a successful hit, you may choose to cause the blade to instantly sprout a tangle of ivy vines. The target must succeed a Strength save DC 16 or become Restrained for 3 rounds. They may attempt another save at the start of their turn. On scoring a critical hit, the <b>Ensnaring Ivy</b> effect is triggered for free.</p>
         </description>
         <setters>
             <set name="category">Magic Weapons</set>

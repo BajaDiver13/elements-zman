@@ -4,7 +4,7 @@
         <name>Rings</name>
         <description>Collection of Zman Homebrew Rings</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-rings.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rings.xml" />
         </update>
     </info>
@@ -94,7 +94,7 @@
         <description>
             <p>The wearer of this ring can, once a day, alter one letter of a spell's title to alter the spell for a different effect.</p>
             <p></p>
-            <p class="indent">Example: Cause Fear becomes Cause Bear.</p>
+            <p class="indent"><em>Example: Cause Fear becomes Cause Bear.</em></p>
             <p></p>
             <p class="indent">The effect of these altered spells are deteremined by the DM, but with the caster's intentions taken into account.</p>
         </description>
@@ -124,23 +124,6 @@
             <set name="attunement">true</set>
         </setters>
     </element>
-    <element name="Shadecast Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADECAST_RING">
-        <description>
-            <p>This ring holds a maximum of 4 charges that replenish 1d4 charges eveyr midnight. <b>Shadow Step:</b> As a bonus action, you may expend 2 charges to briefly surround yourself in shadows and teleport up to 40 feet to an unoccupied space that you can see. For each additional charge expended in the same bonus action, you may add an extra 10 feet. Should the ring be completely drained of charges, You must make a Constitution saving throw DC 15. If you fail, you take 1d6 necrotic damage. If you succeed, you deal an additional 1d6 necrotic damage on your next successful hit.</p>
-            <p></p>
-            <p><em>Requires attunement with no visable moon in sky.</em></p>
-        </description>
-        <setters>
-            <set name="category">Rings</set>
-            <set name="type">Ring</set>
-            <set name="rarity">Uncommon</set>
-            <set name="cost" currency="gp"></set>
-            <set name="slot">ring</set>
-            <set name="equippable">true</set>
-            <set name="attunement">true</set>
-            <set name="charges">4</set>
-        </setters>
-    </element>
     <element name="Abyss Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ABYSS_RING">
         <description>
             <p>The wearer turns invisible for as long as they can hold their breath. Steath +4 while worn. </p>
@@ -168,7 +151,7 @@
             <set name="rarity">Very Rare</set>
             <set name="slot">ring</set>
             <set name="equippable">true</set>
-            <set name="attunement" addition="by a fighter or ranger with the archery fighting style"></set>
+            <set name="attunement" addition="by a fighter or ranger with the archery fighting style">true</set>
         </setters>
     </element>
 </elements>

@@ -4,7 +4,7 @@
         <name>Wondrous Items</name>
         <description>Collection of Zman Homebrew Wondrous Items</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-wondrous.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-wondrous.xml" />
         </update>
     </info>
@@ -21,9 +21,11 @@
             <set name="cost" currency="gp">220</set>
         </setters>
     </element>
-    <element name="Hoof of the Light Thief" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_HOOF_OF_THE_LIGHT_THIEF">
+    <element name="Hood of the Light Thief" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_HOOD_OF_THE_LIGHT_THIEF">
         <description>
-            <p>While attuned, you have advantage on DEX saving throws and gain +1 to Stealth. You can release a small amount of magic from the gem stone at will, casting light 10ft in front of you to light dark paths. <b>Piercing Light</b> (2 charges) A light brighter than the sun flashes from the gem stone. Enemies within a 15ft radius mut make a CON saving throw with a DC 16. If they fail, they are now blinded for 1 minute. All expended charges replenish at dawn.</p>
+            <p>While attuned, you have advantage on DEX saving throws and gain +1 to Stealth. You can release a small amount of magic from the gem stone at will, casting light 10ft in front of you to light dark paths.</p>
+            <p></p>
+            <p class="indent"><b>Piercing Light</b> (2 charges) A light brighter than the sun flashes from the gem stone. Enemies within a 15ft radius mut make a CON saving throw with a DC 16. If they fail, they are now blinded for 1 minute. All expended charges replenish at dawn.</p>
         </description>
         <setters>
             <set name="category">Wondrous Items</set>
@@ -97,6 +99,23 @@
             <set name="type">Wondrous Items</set>
             <set name="rarity">Uncommon</set>
             <set name="cost" currency="gp">425</set>
+        </setters>
+    </element>
+    <element name="Shadecast Ring" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_SHADECAST_RING">
+        <description>
+            <p>This ring holds a maximum of 4 charges that replenish 1d4 charges eveyr midnight. <b>Shadow Step:</b> As a bonus action, you may expend 2 charges to briefly surround yourself in shadows and teleport up to 40 feet to an unoccupied space that you can see. For each additional charge expended in the same bonus action, you may add an extra 10 feet. Should the ring be completely drained of charges, You must make a Constitution saving throw DC 15. If you fail, you take 1d6 necrotic damage. If you succeed, you deal an additional 1d6 necrotic damage on your next successful hit.</p>
+            <p></p>
+            <p><em>Requires attunement with no visable moon in sky.</em></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Uncommon</set>
+            <set name="cost" currency="gp">310</set>
+            <set name="slot">ring</set>
+            <set name="equippable">true</set>
+            <set name="attunement">true</set>
+            <set name="charges">4</set>
         </setters>
     </element>
 </elements>

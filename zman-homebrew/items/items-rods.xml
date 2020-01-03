@@ -4,7 +4,7 @@
         <name>Rods</name>
         <description>Collection of Zman Homebrew Rods</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-rods.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-rods.xml" />
         </update>
     </info>
@@ -94,6 +94,7 @@
             <set name="slot">onehand</set>
             <set name="equippable">true</set>
             <set name="attunement">true</set>
+            <set name="charges">1</set>
         </setters>
     </element>
     <element name="Chaos Rod" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_CHAOS_ROD">
@@ -110,6 +111,7 @@
             <set name="slot">onehand</set>
             <set name="equippable">true</set>
             <set name="attunement">false</set>
+            <set name="charges">6</set>
         </setters>
     </element>
 </elements>

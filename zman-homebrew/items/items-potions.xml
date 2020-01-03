@@ -4,7 +4,7 @@
         <name>Potions</name>
         <description>Collection of Zman Homebrew Potions</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-potions.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-potions.xml" />
         </update>
     </info>
@@ -17,6 +17,7 @@
             <set name="type">Potion</set>
             <set name="rarity">Rare</set>
             <set name="cost" currency="gp">900</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
     <element name="Essence of Rage" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ESSENCE_OF_RAGE">
@@ -28,6 +29,7 @@
             <set name="type">Potion</set>
             <set name="rarity">Rare</set>
             <set name="cost" currency="gp">650</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
     <element name="Acid Bomb" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ACID_BOMB">
@@ -39,6 +41,7 @@
             <set name="type">Potion</set>
             <set name="rarity">Common</set>
             <set name="cost" currency="gp">75</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
     <element name="Arcane Bomb" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_ARCANE_BOMB">
@@ -50,6 +53,7 @@
             <set name="type">Potion</set>
             <set name="rarity">Common</set>
             <set name="cost" currency="gp">125</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
 </elements>

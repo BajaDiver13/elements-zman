@@ -4,7 +4,7 @@
         <name>Staffs</name>
         <description>Collection of Zman Homebrew Staffs</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-staffs.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-staffs.xml" />
         </update>
     </info>
@@ -13,8 +13,8 @@
             <p>Gain a +1 to melee attack rolls and damage rolls with weapon. This weapon can be used as a spellcasting focus. You no longer gain disadvantage on ranged spells while engaged in melee when using weapon as a spellcasting focus.</p>
         </description>
         <setters>
-            <set name="category">Staffs</set>
-            <set name="type">Staff</set>
+            <set name="category">Quarterstaff</set>
+            <set name="type">Quarterstaff</set>
             <set name="rarity">Uncommon</set>
             <set name="cost" currency="gp">170</set>
             <set name="slot">onehand</set>
@@ -36,7 +36,7 @@
             <set name="slot">onehand</set>
 	        <set name="weapon">Quarterstaff</set>
             <set name="charges">5</set>
-            <set name="attunement" addition="by a bard, cleric, or druid"></set>
+            <set name="attunement" addition="by a bard, cleric, or druid">true</set>
         </setters>
     </element>
 </elements>

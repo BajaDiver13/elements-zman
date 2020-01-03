@@ -4,7 +4,7 @@
         <name>Armor</name>
         <description>Collection of Zman Homebrew Armor</description>
         <author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="items-armor.xml" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew/items/items-armor.xml" />
         </update>
     </info>
@@ -23,6 +23,9 @@
             <set name="enhancement">2</set>
             <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
         </setters>
+        <rules>
+			<stat name="ac:shield" value="2" bonus="enhancement" />
+		</rules>
     </element>
     <element name="Trollhide Armor" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_TROLLHIDE_ARMOR">
         <description>
@@ -35,6 +38,7 @@
             <set name="type" addition="medium">Armor</set>
             <set name="rarity">Rare</set>
             <set name="cost" currency="gp">900</set>
+            <set name="attunement">true</set>
             <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>
         </setters>
     </element>
@@ -51,6 +55,11 @@
             <set name="cost" currency="gp">7500</set>
             <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
             <set name="enhancement">1</set>
+            <set name="attunement">true</set>
+            <set name="equippable">true</set>
         </setters>
+        <rules>
+			<stat name="ac:shield" value="1" bonus="enhancement" />
+		</rules>
     </element>
 </elements>
