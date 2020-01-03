@@ -4,7 +4,7 @@
 		<name>Zman Homebrew</name>
 		<description>Zman Homebrew is a collection of Dungeons &amp; Dragons items used in campaigns run by Dungeon Master Zman.</description>
 		<author url="https://github.com/BajaDiver13/elements-zman/tree/master">Zman Homebrew</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="zman-homebrew.index" url="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index" />
 		</update>
 	</info>
