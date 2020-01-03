@@ -7,6 +7,19 @@
 
 <h2>Content Updates</h2>
 <h3>Version 0.0.4</h3>
+<p>Additional content/updates:</p>
+<ul>
+  <li>Armor</li>
+  <li>Potions</li>
+  <li>Rods</li>
+  <li>Rings</li>
+  <li>Rods</li>
+  <li>Staffs</li>
+  <li>Weapons</li>
+  <li>Wondrous Items</li>
+</ul>
+  
+<h3>Version 0.0.4</h3>
 <p>Additional content:</p>
 <ul>
   <li>Armor</li>
