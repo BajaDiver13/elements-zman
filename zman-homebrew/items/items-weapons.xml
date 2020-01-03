@@ -112,12 +112,11 @@
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
-            <set name="type" addition="crossbow, heavy">Weapon</set>
+            <set name="weapon">ID_WOTC_PHB_WEAPON_CROSSBOW_HEAVY</set>
             <set name="rarity">Very Rare</set>
             <set name="cost" currency="gp">27000</set>
             <set name="enhancement">1</set>
             <set name="damage" type="piercing">1d10</set>
-            <set name="weapon">Crossbow</set>
         </setters>
     </element>
     <element name="Needle" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_NEEDLE">
