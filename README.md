@@ -6,7 +6,7 @@
 <p><a href="https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index">https://raw.githubusercontent.com/BajaDiver13/elements-zman/master/zman-homebrew.index</a></p>
 
 <h2>Content Updates</h2>
-<h3>Version 0.0.4</h3>
+<h3>Version 0.0.5</h3>
 <p>Content updates:</p>
 <ul>
   <li>Armor</li>
