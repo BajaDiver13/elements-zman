@@ -102,7 +102,6 @@
         </setters>
     </element>
     <element name="Dactyle Crossbow" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_DACTYLE_CROSSBOW">
-        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</supports>
         <description>
             <p>1d10 piercing damage. +1 to attack and damage rolls. While aiming you gain:</p>
             <ul>
@@ -113,10 +112,12 @@
         </description>
         <setters>
             <set name="category">Magic Weapons</set>
+            <set name="type" addition="crossbow, heavy">Weapon</set>
             <set name="rarity">Very Rare</set>
             <set name="cost" currency="gp">27000</set>
             <set name="enhancement">1</set>
             <set name="damage" type="piercing">1d10</set>
+            <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
         </setters>
     </element>
     <element name="Needle" type="Magic Item" source="Zman Homebrew" id="ID_ZBBR_ZMHB_MAGIC_ITEM_NEEDLE">
