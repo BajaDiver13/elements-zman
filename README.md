@@ -7,7 +7,7 @@
 
 <h2>Content Updates</h2>
 <h3>Version 0.0.4</h3>
-<p>Additional content/updates:</p>
+<p>Content updates:</p>
 <ul>
   <li>Armor</li>
   <li>Potions</li>
